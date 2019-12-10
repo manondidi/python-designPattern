@@ -4,7 +4,7 @@ from proxyParttern.Proxy import  Proxy
 
 
 
-
+#代理模式
 def main():
     proxy = Proxy()
     browser = Browser(proxy)
