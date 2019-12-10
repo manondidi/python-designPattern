@@ -1,6 +1,7 @@
 import threading
 
-#双向锁单例模式 保证线程安全
+
+# 双向锁单例模式 线程安全
 class Singleton(object):
     _lock = threading.Lock()
 
