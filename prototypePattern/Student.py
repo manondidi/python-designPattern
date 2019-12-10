@@ -20,6 +20,5 @@ if __name__ == '__main__':
     student2 = student1.clone()
     student1.id = '006'
 
-
     print(student1.__dict__)
     print(student2.__dict__)
