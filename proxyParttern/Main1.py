@@ -1,10 +1,8 @@
-from proxyParttern.Browser import  Browser
-from proxyParttern.Proxy import  Proxy
+from proxyParttern.Browser import Browser
+from proxyParttern.Proxy import Proxy
 
 
-
-
-#代理模式
+# 代理模式
 def main():
     proxy = Proxy()
     browser = Browser(proxy)
