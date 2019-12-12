@@ -37,7 +37,7 @@
 * 15.组合模式 没写,就是一种树形数据结构
 * 16.迭代器模式  iteratorPattern         设计一个迭代器 为集合 提供 has_next() 和 next()方法 进行遍历  
 * 17.桥接模式 bridgePattern, 桥接模式是将 A继承B B继承C 这种形式拆分成 B继承C  B持有A的形式,举个例子 将多重继承拆分开,并保持两个父类的特性
-* 18.命令模式 commandPattern
+* 18.命令模式 commandPattern 命令模式 是通过命令 将 boss和员工 分隔开,不让boss直接调用员工,根据敏捷开发原则,没啥事可以不用特地使用命令模式
 * 19.
 
 **to be continued,老夫将持续更新**
