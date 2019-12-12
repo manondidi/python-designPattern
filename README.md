@@ -38,7 +38,8 @@
 * 16.迭代器模式  iteratorPattern         设计一个迭代器 为集合 提供 has_next() 和 next()方法 进行遍历  
 * 17.桥接模式 bridgePattern, 桥接模式是将 A继承B B继承C 这种形式拆分成 B继承C  B持有A的形式,举个例子 将多重继承拆分开,并保持两个父类的特性
 * 18.命令模式 commandPattern 命令模式 是通过命令 将 boss和员工 分隔开,不让boss直接调用员工,根据敏捷开发原则,没啥事可以不用特地使用命令模式
-* 19.
+* 19.责任链模式responsePattern
+* 20.中介者模式 mediatorPattern 房东和买家通过中介 进行沟通, 中介依赖 两个people(房东和买家), 房东和买家各自依赖中介,people要相互沟通,要调用中介的方法,通过中介来执行
 
 **to be continued,老夫将持续更新**
 
